@@ -379,7 +379,7 @@ header ul a:hover{
 .my-project{
     display: flex;
     flex-direction: column;
-    gap: 10%;
+    gap: 1%;
     align-items: center;
     position: relative;
     width: 80%;
