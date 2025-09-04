@@ -391,10 +391,10 @@ header ul a:hover{
 .project-card {
     display: flex;
     width: 100%;
-    height: 40%;
-    align-items: center;
-    gap: 10%;
-    justify-content: center;
+    min-height: 350px;
+    align-items: flex-start;
+    gap: 5%;
+    margin-bottom: 50px;
 }
 
 .project-vidbox{
@@ -425,39 +425,30 @@ header ul a:hover{
 .project-info{
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     width: 50%;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
-.project-info h1{
-    width: 90%;
-    font-size: 25px;
-    font-weight: bold;
-    text-wrap: nowrap;
-    margin-top: 0;
-    margin-bottom: 10px;
-    max-width: 450px;
+.project-info h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 15px 0;  /* uniform spacing */
+  line-height: 1.3;    /* tighter line spacing */
+
 }
 
-.project-info p{
-    width: 90%;
-    max-width: 400px;
-    min-width: 300px;
-    margin-bottom: 50px;
-    margin-top: 0;
+.project-info p {
+  font-size: 15px;
+  line-height: 1.6;    /* better readability */
+  margin: 0 0 20px 0;  /* equal gap before button */
+  max-width: 450px;    /* all descriptions same width */
+
 }
 
-.project-info button{
-    color: white;
-    padding: 15px 35px;
-    border-radius: 10px;
-    border: 1px solid #72a1de81;
-    background-color: #2200493d;
-    box-shadow: 0 0 5px #72a1de81;
-    cursor: pointer;
-    transition: 0.3s;
+.project-info button {
+  margin-top: auto;    /* pushes button to bottom consistently */
 }
 
 .project-info button:hover{
