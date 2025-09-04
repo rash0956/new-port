@@ -391,10 +391,10 @@ header ul a:hover{
 .project-card {
     display: flex;
     width: 100%;
-    min-height: 350px;
     align-items: flex-start;
     gap: 5%;
-    margin-bottom: 50px;
+    margin-bottom: 60px;   /* equal space between cards */
+    min-height: 350px;     /* same height for each card */
 }
 
 .project-vidbox{
