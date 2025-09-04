@@ -449,18 +449,27 @@ header ul a:hover{
 }
 
 .project-btn {
-  display: inline-block;
+  display: inline-flex;        /* align icon + text */
+  align-items: center;
+  gap: 8px;                    /* space between icon and text */
   padding: 12px 30px;
   border-radius: 10px;
-  background-color: #2200493d;
-  color: white;
+  background-color: #2200493d; /* dark background */
+  color: white !important;     /* force white text */
   border: 1px solid #72a1de81;
   box-shadow: 0 0 5px #72a1de81;
   cursor: pointer;
-  text-decoration: none;   /* removes underline */
-  font-size: 14px;
+  text-decoration: none;       /* remove underline */
+  font-size: 15px;
+  font-weight: 500;
   transition: 0.3s;
 }
+
+.project-btn i {
+  color: white !important;     /* ✅ force white icon */
+  font-size: 18px;             /* slightly smaller than text */
+}
+
 
 .project-btn:hover {
   opacity: 0.8;
