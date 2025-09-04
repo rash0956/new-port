@@ -487,6 +487,30 @@ header ul a:hover{
 
 }
 
+.extra-projects {
+  display: none;
+  flex-direction: column;
+  gap: 10%;
+}
+
+.see-more-btn {
+  margin-top: 40px;
+  padding: 15px 35px;
+  border-radius: 10px;
+  background-color: #2200493d;
+  color: white;
+  border: 1px solid #72a1de81;
+  box-shadow: 0 0 5px #72a1de81;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.see-more-btn:hover {
+  box-shadow: 0 0 15px #72a1de81;
+  opacity: 0.8;
+}
+
+
 .hover-sign.active{
     display: none;
 }
