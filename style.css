@@ -448,13 +448,23 @@ header ul a:hover{
 
 }
 
-.project-info button {
-  margin-top: auto;    /* pushes button to bottom consistently */
+.project-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 10px;
+  background-color: #2200493d;
+  color: white;
+  border: 1px solid #72a1de81;
+  box-shadow: 0 0 5px #72a1de81;
+  cursor: pointer;
+  text-decoration: none;   /* removes underline */
+  font-size: 14px;
+  transition: 0.3s;
 }
 
-.project-info button:hover{
-    opacity: 0.8;
-    box-shadow: 0 0 15px #72a1de81;
+.project-btn:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 15px #72a1de81;
 }
 
 .project-vidbox .hover-sign{
